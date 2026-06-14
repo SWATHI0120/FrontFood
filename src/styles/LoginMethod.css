@@ -1,0 +1,37 @@
+.login-method-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-method-cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.login-card {
+  width: 220px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.login-card:hover {
+  transform: scale(1.05);
+}
+
+.admin {
+  background: #1e1e2f;
+  color: white;
+}
+
+.customer {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  color: white;
+}

@@ -1,0 +1,144 @@
+/* Page background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+/* Card */
+.login-form {
+  background: white;
+  padding: 40px;
+  width: 340px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Inputs */
+.login-input {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #ff512f;
+  box-shadow: 0 0 0 2px rgba(255, 81, 47, 0.15);
+}
+
+/* Button */
+.login-button {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Register text */
+.register-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.register-link {
+  color: #dd2476;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* .login-container{
+
+height:80vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:#f5f5f5;
+
+}
+
+.login-form{
+
+background:white;
+
+padding:35px;
+
+width:320px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.login-title{
+text-align:center;
+}
+
+.login-input{
+
+padding:10px;
+
+border:1px solid #ccc;
+
+border-radius:5px;
+
+font-size:14px;
+
+}
+
+.login-button{
+
+background:linear-gradient(90deg,#ff512f,#dd2476);
+
+border:none;
+
+color:white;
+
+padding:10px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+font-size:16px;
+
+} */

@@ -1,0 +1,62 @@
+.address-page {
+  max-width: 380px;
+  margin: 50px auto;
+  padding: 22px 20px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+
+.address-page h2 {
+  text-align: center;
+  margin-bottom: 22px;
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Input wrapper spacing */
+.address-page input {
+  width: 100%;
+  padding: 11px 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Focus effect */
+.address-page input:focus {
+  border-color: #ff5722;
+  outline: none;
+}
+
+/* Button */
+.checkout-btn {
+  width: 100%;
+  padding: 13px;
+  margin-top: 6px;
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background: #e64a19;
+}
+
+/* Mobile optimization */
+@media (max-width: 480px) {
+  .address-page {
+    width: 90%;
+    margin: 30px auto;
+    padding: 18px;
+  }
+}

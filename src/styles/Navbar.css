@@ -1,0 +1,37 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:15px 40px;
+
+background:linear-gradient(90deg,#ff512f,#dd2476);
+
+color:white;
+}
+
+.navbar-logo{
+font-size:24px;
+}
+
+.navbar-links{
+display:flex;
+gap:20px;
+}
+
+.navbar-link{
+text-decoration:none;
+color:white;
+font-size:16px;
+transition:0.3s;
+}
+
+.navbar-link:hover{
+color:#ffe9a8;
+}
+
+.search-icon {
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+/* Menu Page */
+.menu {
+  padding: 40px 60px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+/* Title */
+.menu-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+/* Grid Layout */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
