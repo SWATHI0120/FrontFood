@@ -41,35 +41,3 @@ function FoodCard({ food }) {
 }
 
 export default FoodCard;
-
-// import "../styles/FoodCard.css";
-// import { useContext } from "react";
-// import { CartContext } from "../context/CartProvider";
-
-// function FoodCard({ food }) {
-
-//   const { addToCart } = useContext(CartContext);
-
-//   return (
-
-//     <div className="food-card">
-
-//       <img className="food-image" src={food.image} alt={food.name} />
-
-//       <h3 className="food-name">{food.name}</h3>
-
-//       <p className="food-price">₹{food.price}</p>
-
-//       <button
-//         className="food-button"
-//         onClick={() => addToCart(food)}
-//       >
-//         Add to Cart
-//       </button>
-
-//     </div>
-
-//   );
-// }
-
-// export default FoodCard;
