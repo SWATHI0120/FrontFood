@@ -146,10 +146,10 @@ const handleConfirmPay = () => {
               </>
             ) : (
               <div className="payment-success">
-                <h2>✅ Payment Successful</h2>
+                <h2>✅ Payment Successful..</h2>
                 <p>Paid using {selectedMethod}</p>
                 <button className="done-btn" onClick={() => setShowPayment(false)}>
-                  Done
+                  Done..
                 </button>
               </div>
             )}
