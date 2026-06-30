@@ -9,7 +9,7 @@ function Orders() {
     <div className="orders-container">
       <h1>Your Orders</h1>
 
-      {orders.length === 0 && <p>No orders yet...</p>}
+      {orders.length === 0 && <p>No orders yet</p>}
 
       {orders.map(order => (
         <div key={order.id} className="order-card">

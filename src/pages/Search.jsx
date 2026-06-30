@@ -34,7 +34,7 @@ function Search() {
     <div className="search-page">
       <h1 className="title">🍽️ Food Search</h1>
       <p className="subtitle">
-        Find food availability across online ordering apps
+        Find food availability across online ordering apps...
       </p>
 
       {/* Search Controls */}
